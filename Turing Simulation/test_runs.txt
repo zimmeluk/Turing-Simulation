@@ -1,0 +1,501 @@
+--------------------
+TEST RUNS
+--------------------
+
+Output taken from the terminal
+Two full traces are taken for each file
+
+--------------------
+exercise_11-1.txt
+--------------------
+101
+Reading 1
+  State  -> 0
+  Head   -> 0
+  String -> *101*
+Reading 0
+  State  -> 1
+  Head   -> 1
+  String -> *1*1*
+Reading 1
+  State  -> 1
+  Head   -> *
+  String -> *1*1*
+Reading *
+  State  -> 3
+  Head   -> *
+  String -> *1*1*
+ACCEPT
+
+1011
+ACCEPT
+
+01
+ACCEPT
+
+0111111
+ACCEPT
+
+110
+ACCEPT
+
+010
+Reading 0
+  State  -> 1
+  Head   -> 1
+  String -> **10*
+Reading 1
+  State  -> 1
+  Head   -> 0
+  String -> **10*
+Reading 0
+  State  -> 2
+  Head   -> 1
+  String -> **1**
+Reading 1
+  State  -> 2
+  Head   -> *
+  String -> **1**
+Reading *
+  State  -> 0
+  Head   -> 1
+  String -> **1**
+Reading 1
+  State  -> 0
+  Head   -> *
+  String -> **1**
+REJECT
+
+101101
+REJECT
+
+10110000
+REJECT
+
+01111110
+REJECT
+
+000111111
+REJECT
+
+--------------------
+exercise_11-13.txt
+--------------------
+0101
+Reading 0
+  State  -> 1
+  Head   -> 0
+  String -> *0101*
+Reading 0
+  State  -> 2
+  Head   -> 1
+  String -> *#101*
+Reading 1
+  State  -> 3
+  Head   -> 0
+  String -> *##01*
+Reading 0
+  State  -> 4
+  Head   -> 1
+  String -> *##01*
+Reading 1
+  State  -> 1
+  Head   -> *
+  String -> *##01*
+Reading *
+  State  -> 5
+  Head   -> 1
+  String -> *##01*
+Reading 1
+  State  -> 5
+  Head   -> 0
+  String -> *##01*
+Reading 0
+  State  -> 5
+  Head   -> #
+  String -> *##01*
+Reading #
+  State  -> 5
+  Head   -> #
+  String -> *##01*
+Reading #
+  State  -> 5
+  Head   -> *
+  String -> *##01*
+Reading *
+  State  -> 0
+  Head   -> #
+  String -> *##01*
+Reading #
+  State  -> 0
+  Head   -> #
+  String -> *##01*
+Reading #
+  State  -> 0
+  Head   -> 0
+  String -> *##01*
+Reading 0
+  State  -> 1
+  Head   -> 0
+  String -> *##01*
+Reading 0
+  State  -> 2
+  Head   -> 1
+  String -> *###1*
+Reading 1
+  State  -> 3
+  Head   -> *
+  String -> *####*
+Reading *
+  State  -> 5
+  Head   -> #
+  String -> *####*
+Reading #
+  State  -> 5
+  Head   -> #
+  String -> *####*
+Reading #
+  State  -> 5
+  Head   -> #
+  String -> *####*
+Reading #
+  State  -> 5
+  Head   -> #
+  String -> *####*
+Reading #
+  State  -> 5
+  Head   -> *
+  String -> *####*
+Reading *
+  State  -> 0
+  Head   -> #
+  String -> *####*
+Reading #
+  State  -> 0
+  Head   -> #
+  String -> *####*
+Reading #
+  State  -> 0
+  Head   -> #
+  String -> *####*
+Reading #
+  State  -> 0
+  Head   -> #
+  String -> *####*
+Reading #
+  State  -> 0
+  Head   -> *
+  String -> *####*
+Reading *
+  State  -> 6
+  Head   -> *
+  String -> *####*
+ACCEPT
+
+0011
+ACCEPT
+
+101010
+ACCEPT
+
+00011101
+ACCEPT
+
+1110001010
+ACCEPT
+
+11010
+Reading 1
+  State  -> 1
+  Head   -> 1
+  String -> *11010*
+Reading 1
+  State  -> 4
+  Head   -> 1
+  String -> *#1010*
+Reading 1
+  State  -> 1
+  Head   -> 0
+  String -> *#1010*
+Reading 0
+  State  -> 2
+  Head   -> 1
+  String -> *#1#10*
+Reading 1
+  State  -> 3
+  Head   -> 0
+  String -> *#1##0*
+Reading 0
+  State  -> 4
+  Head   -> *
+  String -> *#1##0*
+REJECT
+
+11
+REJECT
+
+00
+REJECT
+
+0011010110101
+REJECT
+
+001101011010100010
+REJECT
+
+--------------------
+exercise_11-14.txt
+--------------------
+0011
+Reading 0
+  State  -> 2
+  Head   -> 0
+  String -> *$011*
+Reading 0
+  State  -> 2
+  Head   -> 1
+  String -> *$011*
+Reading 1
+  State  -> 3
+  Head   -> 1
+  String -> *$011*
+Reading 1
+  State  -> 3
+  Head   -> *
+  String -> *$011*
+Reading *
+  State  -> 4
+  Head   -> 1
+  String -> *$011*
+Reading 1
+  State  -> 5
+  Head   -> 1
+  String -> *$01**
+Reading 1
+  State  -> 5
+  Head   -> 0
+  String -> *$01**
+Reading 0
+  State  -> 5
+  Head   -> $
+  String -> *$01**
+Reading $
+  State  -> 0
+  Head   -> 0
+  String -> *$01**
+Reading 0
+  State  -> 2
+  Head   -> 1
+  String -> *$$1**
+Reading 1
+  State  -> 3
+  Head   -> *
+  String -> *$$1**
+Reading *
+  State  -> 4
+  Head   -> 1
+  String -> *$$1**
+Reading 1
+  State  -> 5
+  Head   -> $
+  String -> *$$***
+Reading $
+  State  -> 0
+  Head   -> *
+  String -> *$$***
+Reading *
+  State  -> 6
+  Head   -> *
+  String -> *$$***
+ACCEPT
+
+“”
+ACCEPT
+
+01
+ACCEPT
+
+000111
+ACCEPT
+
+0000011111
+ACCEPT
+
+0101
+Reading 0
+  State  -> 2
+  Head   -> 1
+  String -> *$101*
+Reading 1
+  State  -> 3
+  Head   -> 0
+  String -> *$101*
+REJECT
+
+00111
+REJECT
+
+000
+REJECT
+
+00011
+REJECT
+
+1
+INFINITE LOOP (NO OUTPUT)
+
+1100
+INFINITE LOOP (NO OUTPUT)
+
+--------------------
+exercise_11-for-you.txt
+--------------------
+001122
+Reading 0
+  State  -> 1
+  Head   -> 0
+  String -> **01122*
+Reading 0
+  State  -> 1
+  Head   -> 1
+  String -> **01122*
+Reading 1
+  State  -> 2
+  Head   -> 1
+  String -> **0x122*
+Reading 1
+  State  -> 2
+  Head   -> 2
+  String -> **0x122*
+Reading 2
+  State  -> 3
+  Head   -> 1
+  String -> **0x1x2*
+Reading 1
+  State  -> 3
+  Head   -> x
+  String -> **0x1x2*
+Reading x
+  State  -> 3
+  Head   -> 0
+  String -> **0x1x2*
+Reading 0
+  State  -> 3
+  Head   -> *
+  String -> **0x1x2*
+Reading *
+  State  -> 0
+  Head   -> 0
+  String -> **0x1x2*
+Reading 0
+  State  -> 1
+  Head   -> x
+  String -> ***x1x2*
+Reading x
+  State  -> 1
+  Head   -> 1
+  String -> ***x1x2*
+Reading 1
+  State  -> 2
+  Head   -> x
+  String -> ***xxx2*
+Reading x
+  State  -> 2
+  Head   -> 2
+  String -> ***xxx2*
+Reading 2
+  State  -> 3
+  Head   -> x
+  String -> ***xxxx*
+Reading x
+  State  -> 3
+  Head   -> x
+  String -> ***xxxx*
+Reading x
+  State  -> 3
+  Head   -> x
+  String -> ***xxxx*
+Reading x
+  State  -> 3
+  Head   -> *
+  String -> ***xxxx*
+Reading *
+  State  -> 0
+  Head   -> x
+  String -> ***xxxx*
+Reading x
+  State  -> 4
+  Head   -> x
+  String -> ***xxxx*
+Reading x
+  State  -> 4
+  Head   -> x
+  String -> ***xxxx*
+Reading x
+  State  -> 4
+  Head   -> x
+  String -> ***xxxx*
+Reading x
+  State  -> 4
+  Head   -> *
+  String -> ***xxxx*
+Reading *
+  State  -> 5
+  Head   -> *
+  String -> ***xxxx*
+ACCEPT
+
+012
+ACCEPT
+
+000111222
+ACCEPT
+
+000011112222
+ACCEPT
+
+000001111122222
+ACCEPT
+
+0122
+Reading 0
+  State  -> 1
+  Head   -> 1
+  String -> **122*
+Reading 1
+  State  -> 2
+  Head   -> 2
+  String -> **x22*
+Reading 2
+  State  -> 3
+  Head   -> x
+  String -> **xx2*
+Reading x
+  State  -> 3
+  Head   -> *
+  String -> **xx2*
+Reading *
+  State  -> 0
+  Head   -> x
+  String -> **xx2*
+Reading x
+  State  -> 4
+  Head   -> x
+  String -> **xx2*
+Reading x
+  State  -> 4
+  Head   -> 2
+  String -> **xx2*
+REJECT
+
+“”
+REJECT
+
+0012
+REJECT
+
+0112
+REJECT
+
+120
+REJECT

@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43C2771B1ED0BD6500A95851 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C2771A1ED0BD6500A95851 /* AppDelegate.m */; };
+		43C2771E1ED0BD6500A95851 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C2771D1ED0BD6500A95851 /* main.m */; };
+		43C277211ED0BD6500A95851 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 43C277201ED0BD6500A95851 /* ViewController.mm */; };
+		43C277231ED0BD6500A95851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43C277221ED0BD6500A95851 /* Assets.xcassets */; };
+		43C277261ED0BD6500A95851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C277241ED0BD6500A95851 /* Main.storyboard */; };
+		43C277311ED0BD6500A95851 /* Turing_SimulationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C277301ED0BD6500A95851 /* Turing_SimulationTests.m */; };
+		43C2773C1ED0BD6500A95851 /* Turing_SimulationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C2773B1ED0BD6500A95851 /* Turing_SimulationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43C2772D1ED0BD6500A95851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43C2770E1ED0BD6400A95851 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C277151ED0BD6400A95851;
+			remoteInfo = "Turing Simulation";
+		};
+		43C277381ED0BD6500A95851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43C2770E1ED0BD6400A95851 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43C277151ED0BD6400A95851;
+			remoteInfo = "Turing Simulation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43C277161ED0BD6500A95851 /* Turing Simulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turing Simulation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C277191ED0BD6500A95851 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43C2771A1ED0BD6500A95851 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43C2771D1ED0BD6500A95851 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43C2771F1ED0BD6500A95851 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43C277201ED0BD6500A95851 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		43C277221ED0BD6500A95851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43C277251ED0BD6500A95851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43C277271ED0BD6500A95851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C2772C1ED0BD6500A95851 /* Turing SimulationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turing SimulationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C277301ED0BD6500A95851 /* Turing_SimulationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Turing_SimulationTests.m; sourceTree = "<group>"; };
+		43C277321ED0BD6500A95851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43C277371ED0BD6500A95851 /* Turing SimulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turing SimulationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C2773B1ED0BD6500A95851 /* Turing_SimulationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Turing_SimulationUITests.m; sourceTree = "<group>"; };
+		43C2773D1ED0BD6500A95851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43C277131ED0BD6400A95851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C277291ED0BD6500A95851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C277341ED0BD6500A95851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43C2770D1ED0BD6400A95851 = {
+			isa = PBXGroup;
+			children = (
+				43C277181ED0BD6500A95851 /* Turing Simulation */,
+				43C2772F1ED0BD6500A95851 /* Turing SimulationTests */,
+				43C2773A1ED0BD6500A95851 /* Turing SimulationUITests */,
+				43C277171ED0BD6500A95851 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43C277171ED0BD6500A95851 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43C277161ED0BD6500A95851 /* Turing Simulation.app */,
+				43C2772C1ED0BD6500A95851 /* Turing SimulationTests.xctest */,
+				43C277371ED0BD6500A95851 /* Turing SimulationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43C277181ED0BD6500A95851 /* Turing Simulation */ = {
+			isa = PBXGroup;
+			children = (
+				43C277191ED0BD6500A95851 /* AppDelegate.h */,
+				43C2771A1ED0BD6500A95851 /* AppDelegate.m */,
+				43C2771F1ED0BD6500A95851 /* ViewController.h */,
+				43C277201ED0BD6500A95851 /* ViewController.mm */,
+				43C277221ED0BD6500A95851 /* Assets.xcassets */,
+				43C277241ED0BD6500A95851 /* Main.storyboard */,
+				43C277271ED0BD6500A95851 /* Info.plist */,
+				43C2771C1ED0BD6500A95851 /* Supporting Files */,
+			);
+			path = "Turing Simulation";
+			sourceTree = "<group>";
+		};
+		43C2771C1ED0BD6500A95851 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43C2771D1ED0BD6500A95851 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43C2772F1ED0BD6500A95851 /* Turing SimulationTests */ = {
+			isa = PBXGroup;
+			children = (
+				43C277301ED0BD6500A95851 /* Turing_SimulationTests.m */,
+				43C277321ED0BD6500A95851 /* Info.plist */,
+			);
+			path = "Turing SimulationTests";
+			sourceTree = "<group>";
+		};
+		43C2773A1ED0BD6500A95851 /* Turing SimulationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43C2773B1ED0BD6500A95851 /* Turing_SimulationUITests.m */,
+				43C2773D1ED0BD6500A95851 /* Info.plist */,
+			);
+			path = "Turing SimulationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43C277151ED0BD6400A95851 /* Turing Simulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C277401ED0BD6500A95851 /* Build configuration list for PBXNativeTarget "Turing Simulation" */;
+			buildPhases = (
+				43C277121ED0BD6400A95851 /* Sources */,
+				43C277131ED0BD6400A95851 /* Frameworks */,
+				43C277141ED0BD6400A95851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Turing Simulation";
+			productName = "Turing Simulation";
+			productReference = 43C277161ED0BD6500A95851 /* Turing Simulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43C2772B1ED0BD6500A95851 /* Turing SimulationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C277431ED0BD6500A95851 /* Build configuration list for PBXNativeTarget "Turing SimulationTests" */;
+			buildPhases = (
+				43C277281ED0BD6500A95851 /* Sources */,
+				43C277291ED0BD6500A95851 /* Frameworks */,
+				43C2772A1ED0BD6500A95851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43C2772E1ED0BD6500A95851 /* PBXTargetDependency */,
+			);
+			name = "Turing SimulationTests";
+			productName = "Turing SimulationTests";
+			productReference = 43C2772C1ED0BD6500A95851 /* Turing SimulationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43C277361ED0BD6500A95851 /* Turing SimulationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43C277461ED0BD6500A95851 /* Build configuration list for PBXNativeTarget "Turing SimulationUITests" */;
+			buildPhases = (
+				43C277331ED0BD6500A95851 /* Sources */,
+				43C277341ED0BD6500A95851 /* Frameworks */,
+				43C277351ED0BD6500A95851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43C277391ED0BD6500A95851 /* PBXTargetDependency */,
+			);
+			name = "Turing SimulationUITests";
+			productName = "Turing SimulationUITests";
+			productReference = 43C277371ED0BD6500A95851 /* Turing SimulationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43C2770E1ED0BD6400A95851 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Luke Zimmerman";
+				TargetAttributes = {
+					43C277151ED0BD6400A95851 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					43C2772B1ED0BD6500A95851 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43C277151ED0BD6400A95851;
+					};
+					43C277361ED0BD6500A95851 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43C277151ED0BD6400A95851;
+					};
+				};
+			};
+			buildConfigurationList = 43C277111ED0BD6400A95851 /* Build configuration list for PBXProject "Turing Simulation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43C2770D1ED0BD6400A95851;
+			productRefGroup = 43C277171ED0BD6500A95851 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43C277151ED0BD6400A95851 /* Turing Simulation */,
+				43C2772B1ED0BD6500A95851 /* Turing SimulationTests */,
+				43C277361ED0BD6500A95851 /* Turing SimulationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43C277141ED0BD6400A95851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C277231ED0BD6500A95851 /* Assets.xcassets in Resources */,
+				43C277261ED0BD6500A95851 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C2772A1ED0BD6500A95851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C277351ED0BD6500A95851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43C277121ED0BD6400A95851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C277211ED0BD6500A95851 /* ViewController.mm in Sources */,
+				43C2771E1ED0BD6500A95851 /* main.m in Sources */,
+				43C2771B1ED0BD6500A95851 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C277281ED0BD6500A95851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C277311ED0BD6500A95851 /* Turing_SimulationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C277331ED0BD6500A95851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C2773C1ED0BD6500A95851 /* Turing_SimulationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43C2772E1ED0BD6500A95851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43C277151ED0BD6400A95851 /* Turing Simulation */;
+			targetProxy = 43C2772D1ED0BD6500A95851 /* PBXContainerItemProxy */;
+		};
+		43C277391ED0BD6500A95851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43C277151ED0BD6400A95851 /* Turing Simulation */;
+			targetProxy = 43C277381ED0BD6500A95851 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43C277241ED0BD6500A95851 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43C277251ED0BD6500A95851 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43C2773E1ED0BD6500A95851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		43C2773F1ED0BD6500A95851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		43C277411ED0BD6500A95851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Turing Simulation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stolaf.zimmer2.Turing-Simulation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43C277421ED0BD6500A95851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Turing Simulation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stolaf.zimmer2.Turing-Simulation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43C277441ED0BD6500A95851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Turing SimulationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stolaf.zimmer2.Turing-SimulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turing Simulation.app/Contents/MacOS/Turing Simulation";
+			};
+			name = Debug;
+		};
+		43C277451ED0BD6500A95851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Turing SimulationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stolaf.zimmer2.Turing-SimulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turing Simulation.app/Contents/MacOS/Turing Simulation";
+			};
+			name = Release;
+		};
+		43C277471ED0BD6500A95851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Turing SimulationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stolaf.zimmer2.Turing-SimulationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Turing Simulation";
+			};
+			name = Debug;
+		};
+		43C277481ED0BD6500A95851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Turing SimulationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.stolaf.zimmer2.Turing-SimulationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Turing Simulation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43C277111ED0BD6400A95851 /* Build configuration list for PBXProject "Turing Simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C2773E1ED0BD6500A95851 /* Debug */,
+				43C2773F1ED0BD6500A95851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C277401ED0BD6500A95851 /* Build configuration list for PBXNativeTarget "Turing Simulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C277411ED0BD6500A95851 /* Debug */,
+				43C277421ED0BD6500A95851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C277431ED0BD6500A95851 /* Build configuration list for PBXNativeTarget "Turing SimulationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C277441ED0BD6500A95851 /* Debug */,
+				43C277451ED0BD6500A95851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43C277461ED0BD6500A95851 /* Build configuration list for PBXNativeTarget "Turing SimulationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43C277471ED0BD6500A95851 /* Debug */,
+				43C277481ED0BD6500A95851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43C2770E1ED0BD6400A95851 /* Project object */;
+}
